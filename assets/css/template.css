@@ -165,11 +165,11 @@ header{
 .default .section-desc{
     text-align: center;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .default .section-title{
     font-size: 20px;
-    
 }
 
 .default .section-desc{
@@ -667,3 +667,121 @@ header{
 .section-premium .premium-list .uppercase{
     text-transform: uppercase;
 }
+
+
+.section-body--facts{
+    display: flex;
+    justify-content: center;
+}
+
+.section-facts{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    column-gap: 25px;
+
+}
+
+.containers-facts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.container-number{
+    font-size: 50px;
+    font-weight: bold;
+    color: #B28753;
+}
+
+.container-sidebar{
+    width: 22px;
+    height: 4px;
+    margin-top: 5px;
+    margin-bottom:10px;
+    background-color: rgb(148, 134, 134);
+}
+
+.container-title{
+    font-size: 18px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-title--description{
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 12px;
+    line-height: 20px;
+    text-align: justify;
+    max-width: 180px;
+    color: #999;
+}
+
+.default.light .container .container-section{
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+}
+
+.default.light .container .container-section .section-social{
+    display: flex;
+    align-items: center;
+}
+
+.default.light .container .container-section .section-social span{
+    margin-left: 7px;
+    margin-right: 36px;
+}
+
+.default.light .container .container-section .section-shared{
+    display: flex;
+    align-items: center;
+}
+
+.default.light .container .container-section .section-shared img{
+    width: 35px;
+    height: 35px;
+}
+
+.default.light .container .container-section .section-shared span{
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #999;
+    margin-left: 15px;
+    margin-right: 110px;
+}
+
+.default.light .container .container-section .section-social--icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.default.light .container .container-section .section-social--icons.twitter{
+    background-color: #34c5f0;
+    
+}
+
+.default.light .container .container-section .section-social--icons.linkedin{
+    background-color: #127cb4;
+}
+
+.default.light .container .container-section .section-social--icons.facebook{
+    background-color: #336297;
+}
+
+.default.light .container .container-section .section-social--icons.googleplus{
+    background-color: #336297;
+}
+
+.default.light .container .container-section .section-social--icons.pinterest{
+    background-color: #b71c29;
+}
+
